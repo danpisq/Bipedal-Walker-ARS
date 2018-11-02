@@ -107,7 +107,7 @@ class Agent:
     # ( much more effective - faster training )
     def train_population(self, n_steps):
         for step in range(n_steps):
-            #deltas = [self.noise_rate * np.random.randn(*self.model.weights.shape) for _ in range(self.population)]
+            deltas = [self.noise_rate * np.random.randn(*self.model.weights.shape) for _ in range(self.population)]
             positive_rewards=[0] * self.population
             negative_rewards=[0] * self.population
             old_weights = self.model.get_weights()
