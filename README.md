@@ -1,6 +1,13 @@
 # Bipedal-Walker-ARS
 
 <p>Repository contains agent that basicly learns to walk using OpenAI gym 'Bipedal-Walker-v2' environment and Augmented Random Search algorithm.</p>
+<br>
+<img src="https://i.ytimg.com/vi/hKrFFeZqq3E/maxresdefault.jpg">
+<br>
+
+<p>See sample video of trained model performance</p>
+<h3>https://raw.githubusercontent.com/danpisq/Bipedal-Walker-ARS/master/sickVideo.mp4</h3>
+
 
 <h2>Dependencies</h2>
 <ul>
